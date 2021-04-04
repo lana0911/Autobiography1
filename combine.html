@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>better</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="parallax.min.js"></script>	
+</head>
+<body>
+	
+	<section class="index">
+        <div class="box">
+            <div class="round" id="r1"></div>
+            <div><p  class="round_line">My Profile, My Attidute, My Way</p> </div>
+            <div class="round" id="r2"></div>
+        </div>  
+            <a href="#Introction" style="text-decoration:none;"><div class="photo9" id="a"><h1 class="box_word"> .Introduce</h1></div></a>
+            <div class="photo9" id="b"></div>
+            <a href="#" style="text-decoration:none;"><div class="photo9" id="c"><h1 class="box_word" id="contact_me">.Contact <br>_____Me</h1></div></a>
+            <div class="photo9" id="d"></div>
+            <a href="#" style="text-decoration:none;"><div class="photo9" id="e"><h1 class="box_word"> .Education</h1></div></a>
+            <div class="photo9" id="f"></div>
+            <div class="photo9" id="g"></div>
+            <div class="photo9" id="h"></div>
+            <a href="#" style="text-decoration:none;"><div class="photo9" id="i"><h1 class="box_word"> .Works</h1></div></a>
+            <!-- 線條 -->
+            <div class="line" id="Lifee"></div>
+            <div class="line_word" id="Life">&emsp;自我紹:<br>關於我的人生</div>
+            <div class="line"  id="Eduu"></div>
+            <div class="line_word" id="Edu">&emsp;學歷與社團經驗</div>
+            <div class="line"id="Workk" ></div>
+            <div class="line_word" id="Work">&emsp;作品集</div>
+            <div class="line" id="Telee"></div>
+            <div class="line_word" id="Tele">&emsp;聯絡資訊</div>
+    </section>
+
+	
+    <!-- 首頁 -->
+    <section class="index">
+        <div class="box">
+            <div class="round" id="r1"></div>
+            <div><p  class="round_line">My Profile, My Attidute, My Way</p> </div>
+            <div class="round" id="r2"></div>
+        </div>  
+            <a href="#Introction" style="text-decoration:none;"><div class="photo9" id="a"><h1 class="box_word"> .Introduce</h1></div></a>
+            <div class="photo9" id="b"></div>
+            <a href="#" style="text-decoration:none;"><div class="photo9" id="c"><h1 class="box_word" id="contact_me">.Contact <br>_____Me</h1></div></a>
+            <div class="photo9" id="d"></div>
+            <a href="#" style="text-decoration:none;"><div class="photo9" id="e"><h1 class="box_word"> .Education</h1></div></a>
+            <div class="photo9" id="f"></div>
+            <div class="photo9" id="g"></div>
+            <div class="photo9" id="h"></div>
+            <a href="#" style="text-decoration:none;"><div class="photo9" id="i"><h1 class="box_word"> .Works</h1></div></a>
+            <!-- 線條 -->
+            <div class="line" id="Lifee"></div>
+            <div class="line_word" id="Life">&emsp;自我介紹:<br>關於我的人生</div>
+            <div class="line"  id="Eduu"></div>
+            <div class="line_word" id="Edu">&emsp;學歷與社團經驗</div>
+            <div class="line"id="Workk" ></div>
+            <div class="line_word" id="Work">&emsp;作品集</div>
+            <div class="line" id="Telee"></div>
+            <div class="line_word" id="Tele">&emsp;聯絡資訊</div>
+    </section>
+    <!-- 自我介紹 -->
+    <section class="Introction" id="Introction">
+        hi
+    </section> 	<script >
+		window.addEventListener("scroll", function(){
+			const parallax = document.querySelector('.parallax');
+			let scrollPosition = window.pageYOffset;
+			
+			parallax.style.transform = 'translateY(' + scrollPosition * .6 + 'px)';
+		});
+	</script>
+  
+</body>
+</html>
+    

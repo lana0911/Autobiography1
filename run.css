@@ -1,0 +1,54 @@
+     
+      
+      
+      /* 正式样式文件 */
+      .charector-wrap {
+        position: relative;
+        width: 180px;
+        height: 300px;
+        /*border:1px solid red;*/
+        left: 2100px;
+        top: 1400px;
+        margin-left: -90px;
+      }
+      
+      
+      .charector {
+        position: absolute;
+        width: 180px;
+        height: 300px;
+        background: url(charector.png) 0 0 no-repeat;
+        animation-name: move;
+        animation-duration: 950ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: step-start; /*马上跳转到动画每一帧结束的状态*/
+      }
+      
+      
+      @keyframes move {
+        0% {
+          background-position: 0 0;
+        }
+        14% {
+          background-position: -180px 0;
+          left: 170px;
+        }
+        28% {
+          background-position: -360px 0;left: 340px;
+        }
+        42% {
+          background-position: -540px 0;left: 510px;
+        }
+        56% {
+          background-position: -720px 0;left: 680px;
+        }
+        70% {
+          background-position: -900px 0;left: 850px;
+        }
+        84% {
+          background-position: -1080px 0;left:1020px;
+        }
+        100% {
+          background-position: 0 0;left: 1190px;
+        }
+      }

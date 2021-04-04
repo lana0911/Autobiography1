@@ -1,0 +1,139 @@
+
+.box{
+	/*position: relative;*/
+	top:10000px;
+	border: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #aab597;
+}
+#box_big{
+	top:15000px;
+	border: 5px;
+    width: 800px;
+    height: 800px;
+}
+#t04{
+	top: 2500px;
+	position: relative;
+  	 width: 0px;
+	  height: 0px;
+	  
+	  border-radius: 0%;
+	  border-style: solid solid solid solid;
+	  border-width: 1200px;
+	  border-color: transparent transparent blue transparent ;
+	  right: 0px;
+	  z-index: 6;	
+}
+#box_large{
+	position: relative;
+	top:20px;
+	border-radius: 50% 50% 50% 50%;
+	overflow: hidden;
+	border: 5px;
+	width: 2200px;
+    height: 2200px;
+
+	left: 3800px;
+    /*float: right;*/
+}
+.box2{
+	position: relative;
+	top:600px;
+	right: -300px;
+	border: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2b3618	;
+    animation: dot 0.5s infinite alternate	;
+    animation: updown 2.1s infinite	normal;		
+}
+
+@keyframes dot{
+	0%{border-radius: 50%;}
+	100%{border-radius: 0%;}
+	position
+}
+
+@keyframes updown{
+	from{
+		top: 600px;
+	}to{
+		top: 2200px;
+	}
+}
+
+.spec{
+	width:180px; height:100px;
+	    /*color: black;*/
+    border: 15px dashed #4CAF50; /* Green */
+	font-size: 70px;
+	border-top: 0;border-right: 0;border-left: 0;
+	font-family: Noto Serif TC;
+	background-color:transparent;
+	
+	/*border-color: yellow;*/
+	/*z-index: -1;*/
+}
+.spec:hover{
+	width:1500px; height:1000px;
+	border-radius: 10%;
+	background-size: cover;
+	background-color: transparent;
+}
+#dog:hover{background-image: url(me.jpg);}
+#dance:hover{	background-image: url(dance.jpg);}
+
+@keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1680px 0;
+  }
+}
+
+.sprite {
+  width: 140px;
+  height: 140px;
+  background: url("sprites.png") 0 0 no-repeat;
+  animation: run 1.4s steps(12) infinite;
+}
+
+ 
+ .img_para{
+ 	position: absolute;
+ 	width: 10%;
+ 	height: 300px;
+ 	top: 620px;
+ 	z-index: 5;
+ 	background-size: contain;
+ }
+ .img_para:hover{
+	width:2100px; height:1200px;
+	z-index: 12;/*
+	border-radius: 10%;
+	background-size: cover;
+	background-color: transparent;*/
+}
+ #i1{left:10%; 	background-image: url(1.jpg); top: 1210px;}
+ #i2{left:12%;	background-image: url(2.jpg);top: 910px; }
+ #i3{left:20%; 	background-image: url(3.jpg);}
+ #i4{left:30%;	background-image: url(4.jpg);}
+ #i5{left:40%;	background-image: url(5.jpg);}
+ #i6{left:50%;	background-image: url(6.jpg);}
+ #i7{left:60%;	background-image: url(7.jpg);}
+ #i8{left:70%;	background-image: url(8.jpg);top: 910px;}
+ #i9{left:75%;	background-image: url(9.jpg);top: 1210px;}
+ #i10{left:77%;	background-image: url(10.jpg);top: 1510px;}
+ #i11{left:8%;	background-image: url(11.jpg);top: 1510px;}
+ #i12{left:12%;	background-image: url(12.jpg);top: 1810px;}
+ #i13{left:22%;	background-image: url(13.jpg);top: 2010px;}
+ #i14{left:32%;	background-image: url(14.jpg);top: 2010px;}
+ #i15{left:42%;	background-image: url(15.jpg);top: 2010px;}
+ #i16{left:52%;	background-image: url(16.jpg);top: 2010px;}
+ #i17{left:62%;	background-image: url(18.jpg);top: 2010px;}
+ #i18{left:72%;	background-image: url(17.jpg);top: 1810px

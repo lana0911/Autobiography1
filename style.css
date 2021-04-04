@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Ranchers&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Ranchers&family=Rock+Salt&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Ranchers&family=Rock+Salt&family=Satisfy&family=Zhi+Mang+Xing&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 10px;
+
+}
+
+h4{
+	font-size: 300px;
+	font-family: 'Rock Salt', cursive;
+	position: absolute;
+	right: 800px;
+}
+#r{
+	/*position: absolute;*/
+	left: 1800px; 	
+	top: 1000px;
+	width: 1900px;
+	border: 20px solid;
+	border-color: #556b2f;
+	border-radius: 8%;
+	border-top: 0;border-right: 0;border-left: 0;	
+}
+/*words----------------------------------*/
+.detail{
+	position: absolute;
+	left: 500px;
+	top: 800px;
+	font-size: 70px;
+	font-family: Noto Serif TC;
+	z-index: 9;
+}
+
+p{}
+.term{
+	font-size: 120px;
+	width: 1150px;
+	/*max-width: 100110px;*/
+	font-family: Noto Serif TC;
+	position: relative;
+	top: 2500px;
+	right: -200px;
+	border-radius: 7%;
+	background-color: rgba(85,107,47,50%);
+}
+#club{
+	top: 1800px;
+	width: 1150px;
+	right: 00px;
+}
+.job{
+
+	width: 1150px;
+	font-size: 100px;
+	width: 3000px;
+	/*max-width: 100110px;*/
+	font-family: Noto Serif TC;
+	position: relative;
+	top: 2600px;
+	right: -20px;
+}
+#club{right: -3300px;}
+
+.data{
+
+	font-size: 70px;
+	width: 3200px;
+	height: 200px;
+	/*max-width: 100110px;*/
+	font-family: Noto Serif TC;
+	position: relative;
+	top: 2600px;
+	right: -220px;
+}
+
+dt{
+	width: 600px; height: 150px;
+	font-size: 120px;
+	font-family: Noto Serif TC;
+	position: relative;
+	top: 600px;
+	left: 4000px;
+
+}
+/*---------------------------------------*/
+.hero{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.text-wrapper{
+	text-align: center;
+	position: relative;
+	top: 80px;
+
+}
+.headline{
+	font-size: 250px;
+	font-family: 'Chango', cursive;
+	color: #9E8672;
+	font-weight: 1;
+	list-style: 1;
+
+}
+
+.headline::first-letter{
+	font-size: 20rem;
+
+}
+
+.sub-headline{
+	font-size: 20rem;
+	font-family: 'Chango', cursive;
+	text-transform:  uppercase;
+	color: #9E8672;
+}
+.herb{
+	font-size: 60px;
+	font-family: 'Chango', cursive;
+	text-transform:  uppercase;
+	color: #5A5653;
+}
+/*test-------------------------------*/
+
+
+.container{
+	/*max-width: 960px;*/
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+	padding: 25px;
+
+}/*
+.parallax {
+    min-height: 500px;
+    background: transparent;
+}*/
+.parallax2{
+	height:3200px;
+	width: 6000px;
+	z-index: -1;
+}
+#index{
+
+	background: url(green.png);
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	/*background: url(fcu_env.png);*/
+}
+#tellMy{
+	background: #ccd3c1;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	top: 6500px;
+	z-index: 5;
+
+}
+
+#edu{
+	background: #bbc4ac;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	top: 9500px;
+	height: 3500px;
+
+	z-index: 5;
+}
+
+#prof{
+	background: #aab597;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	top: 13500px;
+
+	z-index: 5;
+}
+/*-----------------------------------*/
+.parallax{
+	position: absolute;
+	top: 50;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+.sec{
+	z-index: 2;
+	position: relative;
+	top: 900px;
+	left: 200px;
+	width :1500px;
+	height: 2000px;
+	object-fit: cover;
+	float: left;
+}
+
+#fcu{
+	z-index: 2;
+	position: absolute;
+	top: 1000px;
+	left: 100px;
+	width :5900px;
+	height: 3050px;
+	float: left;
+}
+.overflow{
+	height: 20vh;
+
+}
+
+
+.id_img{
+	background-image: url('me.jpg');
+	float: left;
+	position: relative;
+	width: 300px;
+	height: 1000px;
+
+}
+.index{
+	width: 100%;
+	height:50vw;
+	background-color: #A48D8D;
+}
+.tellMy{
+	width: 100%;
+	height:50vw;
+	/*background-color: #ffe4c4;*/
+}
+/*Button-------------------------------------------*/
+.btn{
+	display: inline-block;
+	padding: 10px 130px;		
+	border: none;
+	background-color: transparent;
+	text-decoration: none;
+	color: #fff;
+	transition: all 1s 0s ease;
+	font-size: 120px;
+
+	position: relative;
+	top: 1500px;
+	left: 5px;
+	z-index: 3;
+}
+
+.btn:hover{
+	background-color: transparent;
+	color: #000;
+	font-size: 130px;
+}
+/*-------------------------------------------------------*/
+/*自我介紹區----------------------------------------------*/
+
+
+/*-------------------------------------------------------*/
+#prof h1,h3,a{
+position: relative;
+    text-align: center;
+    font-size: 80px;
+    top: 50%;
+    color: darkslategray;
+}
+.con a{
+	font-size:  80px;
+	position: relative;
+	left: 32%;
+}
